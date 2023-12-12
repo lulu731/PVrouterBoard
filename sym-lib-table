@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ADS131M03IPWR")(type "Legacy")(uri "/home/lulu/Téléchargements/ADS131M03IPWR/KiCad/ADS131M03IPWR.lib")(options "")(descr ""))
+  (lib (name "PVrouter")(type "KiCad")(uri "${KIPRJMOD}/PVrouter.kicad_sym")(options "")(descr ""))
+)
