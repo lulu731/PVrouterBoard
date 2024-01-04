@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "ADS131M03IPWR")(type "Legacy")(uri "/home/lulu/Téléchargements/ADS131M03IPWR/KiCad/ADS131M03IPWR.lib")(options "")(descr ""))
   (lib (name "PVrouter")(type "KiCad")(uri "${KIPRJMOD}/PVrouter.kicad_sym")(options "")(descr ""))
+  (lib (name "ATM90E26-YU-B")(type "KiCad")(uri "${KIPRJMOD}/ignore/doc/esp32/ATM90E26-YU-B/KiCad/ATM90E26-YU-B.kicad_sym")(options "")(descr ""))
 )
