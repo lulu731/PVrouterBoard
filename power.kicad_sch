@@ -668,9 +668,6 @@
     (pin "1" (uuid 4e32ecb5-143c-4fc7-9bbc-ede5d12adad5))
     (instances
       (project "pv_router"
-        (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e"
-          (reference "J3") (unit 1)
-        )
         (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
           (reference "J3") (unit 1)
         )
@@ -681,7 +678,7 @@
   (symbol (lib_id "power:GND") (at 82.55 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 128d3dbc-1c11-4df6-b674-62d178b164c8)
-    (property "Reference" "#PWR07" (at 82.55 80.01 0)
+    (property "Reference" "#PWR06" (at 82.55 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 78.74 0)
@@ -696,9 +693,6 @@
     (pin "1" (uuid c82ce147-7b02-46f1-87f2-1564a2843c78))
     (instances
       (project "pv_router"
-        (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e"
-          (reference "#PWR07") (unit 1)
-        )
         (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
           (reference "#PWR06") (unit 1)
         )
@@ -709,7 +703,7 @@
   (symbol (lib_id "Device:C") (at 210.82 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e48acf0-a534-4fc3-9d36-06e1ff01856f)
-    (property "Reference" "C5" (at 214.63 82.55 0)
+    (property "Reference" "Cout" (at 214.63 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 214.63 85.09 0)
@@ -725,9 +719,6 @@
     (pin "1" (uuid d571856c-dfa5-4f0b-a3ee-5f7a70127e5c))
     (instances
       (project "pv_router"
-        (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e"
-          (reference "C5") (unit 1)
-        )
         (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
           (reference "Cout") (unit 1)
         )
@@ -738,7 +729,7 @@
   (symbol (lib_id "power:GND") (at 154.94 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d6a613d-ad8c-420d-a543-1090808331d1)
-    (property "Reference" "#PWR05" (at 154.94 102.87 0)
+    (property "Reference" "#PWR08" (at 154.94 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.94 101.6 0)
@@ -753,9 +744,6 @@
     (pin "1" (uuid b379a022-3437-43fe-a492-da98ffef314b))
     (instances
       (project "pv_router"
-        (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e"
-          (reference "#PWR05") (unit 1)
-        )
         (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
           (reference "#PWR08") (unit 1)
         )
@@ -839,7 +827,7 @@
   (symbol (lib_id "Device:C") (at 190.5 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ecdef23-5c98-4c69-9003-300dcd62fb38)
-    (property "Reference" "C5" (at 194.31 82.55 0)
+    (property "Reference" "Cvcc" (at 194.31 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 194.31 85.09 0)
@@ -855,9 +843,6 @@
     (pin "1" (uuid 605e5fa6-fe55-45de-8ad8-84a632bd2261))
     (instances
       (project "pv_router"
-        (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e"
-          (reference "C5") (unit 1)
-        )
         (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
           (reference "Cvcc") (unit 1)
         )
@@ -868,7 +853,7 @@
   (symbol (lib_id "Device:C") (at 132.08 81.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93657ed2-b4de-44b3-b076-6fb87421b218)
-    (property "Reference" "C6" (at 135.89 80.01 0)
+    (property "Reference" "Cin" (at 135.89 80.01 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10uF" (at 135.89 82.55 0)
@@ -884,9 +869,6 @@
     (pin "1" (uuid 9aa130e3-599f-4a04-b320-5720724005ca))
     (instances
       (project "pv_router"
-        (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e"
-          (reference "C6") (unit 1)
-        )
         (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
           (reference "Cin") (unit 1)
         )
@@ -897,7 +879,7 @@
   (symbol (lib_id "power:+3V3") (at 243.84 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95192ebf-dbd7-40c7-9b92-216c5bc2dbff)
-    (property "Reference" "#PWR04" (at 243.84 64.77 0)
+    (property "Reference" "#PWR05" (at 243.84 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 243.84 55.88 0)
@@ -912,9 +894,6 @@
     (pin "1" (uuid 1e40b5b7-f8b2-441e-8eb7-da311287c783))
     (instances
       (project "pv_router"
-        (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
           (reference "#PWR05") (unit 1)
         )
@@ -925,7 +904,7 @@
   (symbol (lib_id "Device:C") (at 210.82 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d9a789e4-dc5e-4e50-9d11-75e29bcbcdef)
-    (property "Reference" "C5" (at 210.82 55.88 90)
+    (property "Reference" "Cboot" (at 210.82 55.88 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 210.82 58.42 90)
@@ -941,9 +920,6 @@
     (pin "1" (uuid 08c3ea00-1aa2-42f3-949f-234e504ab73d))
     (instances
       (project "pv_router"
-        (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e"
-          (reference "C5") (unit 1)
-        )
         (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
           (reference "Cboot") (unit 1)
         )
