@@ -641,7 +641,7 @@
   (symbol (lib_id "Connector:Barrel_Jack_Switch_Pin3Ring") (at 71.12 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0dd36c6c-7e0f-4aa3-ab7b-43d257e5fafc)
-    (property "Reference" "J3" (at 71.12 62.23 0)
+    (property "Reference" "J1" (at 71.12 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Barrel_Jack_Switch_Pin3Ring" (at 71.12 64.77 0)
@@ -659,7 +659,7 @@
     (instances
       (project "pv_router"
         (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
-          (reference "J3") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -668,7 +668,7 @@
   (symbol (lib_id "power:GND") (at 86.36 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 128d3dbc-1c11-4df6-b674-62d178b164c8)
-    (property "Reference" "#PWR06" (at 86.36 80.01 0)
+    (property "Reference" "#PWR01" (at 86.36 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 78.74 0)
@@ -684,7 +684,7 @@
     (instances
       (project "pv_router"
         (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -719,7 +719,7 @@
   (symbol (lib_id "power:GND") (at 154.94 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d6a613d-ad8c-420d-a543-1090808331d1)
-    (property "Reference" "#PWR08" (at 154.94 102.87 0)
+    (property "Reference" "#PWR03" (at 154.94 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.94 101.6 0)
@@ -735,7 +735,7 @@
     (instances
       (project "pv_router"
         (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -744,7 +744,7 @@
   (symbol (lib_id "L6981C33DR:L6981C33DR") (at 172.72 60.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3dbed933-8353-4eb2-922c-8125f69b1d83)
-    (property "Reference" "IC2" (at 153.67 53.34 0)
+    (property "Reference" "IC1" (at 153.67 53.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L6981C33DR" (at 153.67 55.88 0)
@@ -782,7 +782,7 @@
     (instances
       (project "pv_router"
         (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
-          (reference "IC2") (unit 1)
+          (reference "IC1") (unit 1)
         )
       )
     )
@@ -791,7 +791,7 @@
   (symbol (lib_id "Diode:PMEG6020ELR") (at 97.79 68.58 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44f55555-4697-4279-8003-3e3f67308dbe)
-    (property "Reference" "D2" (at 98.1075 62.23 0)
+    (property "Reference" "D1" (at 98.1075 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PMEG6020ELR" (at 98.1075 64.77 0)
@@ -808,7 +808,7 @@
     (instances
       (project "pv_router"
         (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -868,7 +868,7 @@
   (symbol (lib_id "power:GND") (at 119.38 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c8dd804-0f80-4d2f-89b7-e3376f86313b)
-    (property "Reference" "#PWR026" (at 119.38 46.99 0)
+    (property "Reference" "#PWR02" (at 119.38 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 45.72 0)
@@ -884,7 +884,7 @@
     (instances
       (project "pv_router"
         (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -919,7 +919,7 @@
   (symbol (lib_id "power:+3V3") (at 243.84 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95192ebf-dbd7-40c7-9b92-216c5bc2dbff)
-    (property "Reference" "#PWR05" (at 243.84 64.77 0)
+    (property "Reference" "#PWR04" (at 243.84 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 243.84 55.88 0)
@@ -935,7 +935,7 @@
     (instances
       (project "pv_router"
         (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -944,7 +944,7 @@
   (symbol (lib_id "power:+3V3") (at 246.38 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b389431d-5533-4e2b-b23e-bb2c93190a40)
-    (property "Reference" "#PWR027" (at 246.38 41.91 0)
+    (property "Reference" "#PWR05" (at 246.38 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 246.38 33.02 0)
@@ -960,7 +960,7 @@
     (instances
       (project "pv_router"
         (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
