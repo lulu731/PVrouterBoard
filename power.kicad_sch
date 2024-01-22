@@ -661,7 +661,7 @@
     (property "Value" "Barrel_Jack_Switch_Pin3Ring" (at 71.12 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 72.39 72.136 0)
+    (property "Footprint" "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002" (at 72.39 72.136 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 72.39 72.136 0)
