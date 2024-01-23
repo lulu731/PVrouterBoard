@@ -750,7 +750,7 @@
     (property "Value" "L6981C33DR" (at 153.67 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOIC127P600X175-8N" (at 138.43 155.88 0)
+    (property "Footprint" "L6981C33DR:SOIC127P600X175-8N" (at 138.43 155.88 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/l6981.pdf" (at 138.43 255.88 0)

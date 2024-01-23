@@ -2008,7 +2008,7 @@
     (property "Value" "ATM90E26-YU-B" (at 173.99 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOP65P778X199-28N" (at 189.23 173.66 0)
+    (property "Footprint" "ATM90E26-YU-B:SOP65P778X199-28N" (at 189.23 173.66 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.atmel.com/images/Atmel-46002-SE-M90E26-Datasheet.pdf" (at 189.23 273.66 0)
