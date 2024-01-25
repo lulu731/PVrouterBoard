@@ -7,12 +7,6 @@
   (lib_symbols
   )
 
-  (junction (at 200.66 93.98) (diameter 0) (color 0 0 0 0)
-    (uuid 89a06f54-a53e-40a6-a6c0-2fd9aef84da8)
-  )
-  (junction (at 200.66 96.52) (diameter 0) (color 0 0 0 0)
-    (uuid aa7dbeb8-bdea-45ec-bdba-903523ce98d1)
-  )
 
   (wire (pts (xy 165.1 104.14) (xy 200.66 104.14))
     (stroke (width 0) (type default))
@@ -33,10 +27,6 @@
   (wire (pts (xy 165.1 96.52) (xy 200.66 96.52))
     (stroke (width 0) (type default))
     (uuid b2619bb9-1876-4e56-8851-230f5e281f46)
-  )
-  (wire (pts (xy 200.66 96.52) (xy 200.66 93.98))
-    (stroke (width 0) (type default))
-    (uuid b6c344dc-faa3-4ecf-b053-98e2ee7c3b41)
   )
   (wire (pts (xy 165.1 106.68) (xy 200.66 106.68))
     (stroke (width 0) (type default))
