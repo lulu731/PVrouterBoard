@@ -3,4 +3,5 @@
   (lib (name "ESP32-C3-WROOM-02-N4")(type "Legacy")(uri "${KIPRJMOD}/ignore/doc/esp32/ESP32-C3-WROOM-02-N4/KiCad/ESP32-C3-WROOM-02-N4.mod")(options "")(descr ""))
   (lib (name "L6981C33DR")(type "Legacy")(uri "${KIPRJMOD}/ignore/doc/esp32/L6981C33DR/KiCad/L6981C33DR.mod")(options "")(descr ""))
   (lib (name "ATM90E26-YU-B")(type "Legacy")(uri "${KIPRJMOD}/ignore/doc/esp32/ATM90E26-YU-B/KiCad/ATM90E26-YU-B.mod")(options "")(descr ""))
+  (lib (name "MSS1038T-333MLC")(type "Legacy")(uri "${KIPRJMOD}/ignore/doc/esp32/MSS1038T-333MLC/KiCad/MSS1038T-333MLC.mod")(options "")(descr ""))
 )
