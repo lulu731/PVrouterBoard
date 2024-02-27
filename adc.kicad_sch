@@ -2613,7 +2613,7 @@
     (property "Reference" "C9" (at 151.13 115.57 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1nF" (at 151.13 118.11 0)
+    (property "Value" "10nF" (at 151.13 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 148.2852 120.65 0)
