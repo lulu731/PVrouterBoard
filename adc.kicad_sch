@@ -1937,7 +1937,7 @@
     (property "Value" "Barrel_Jack_Switch_Pin3Ring" (at 45.72 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-079BH_Horizontal" (at 46.99 153.416 0)
+    (property "Footprint" "BarrelJack:BarrelJack_CUI_PJ-051A_Horizontal" (at 46.99 153.416 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "ok 2 !!FP" (at 46.99 153.416 0)
