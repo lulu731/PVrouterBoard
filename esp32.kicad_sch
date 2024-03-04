@@ -1725,7 +1725,7 @@
     (property "Value" "BSS138" (at 135.89 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 134.62 83.185 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 134.62 83.185 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 134.62 85.09 0)
