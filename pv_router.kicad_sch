@@ -1,174 +1,397 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 08ef31dc-81c2-4bcd-8336-e62c344e451e)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (wire (pts (xy 165.1 104.14) (xy 200.66 104.14))
-    (stroke (width 0) (type default))
-    (uuid 2de65412-b929-4a51-a50b-e0778eb09ae4)
-  )
-  (wire (pts (xy 165.1 101.6) (xy 200.66 101.6))
-    (stroke (width 0) (type default))
-    (uuid 3da741e2-d08a-40c0-949e-73d8fa5d808e)
-  )
-  (wire (pts (xy 165.1 109.22) (xy 200.66 109.22))
-    (stroke (width 0) (type default))
-    (uuid 665d2d24-fd92-492d-ba5f-77f636b8cc18)
-  )
-  (wire (pts (xy 165.1 114.3) (xy 200.66 114.3))
-    (stroke (width 0) (type default))
-    (uuid a9dc636c-45c7-4f69-8a72-4363c17f9ad5)
-  )
-  (wire (pts (xy 165.1 96.52) (xy 200.66 96.52))
-    (stroke (width 0) (type default))
-    (uuid b2619bb9-1876-4e56-8851-230f5e281f46)
-  )
-  (wire (pts (xy 165.1 106.68) (xy 200.66 106.68))
-    (stroke (width 0) (type default))
-    (uuid b97e1928-0f60-4492-b47d-189c9c33c97e)
-  )
-  (wire (pts (xy 165.1 111.76) (xy 200.66 111.76))
-    (stroke (width 0) (type default))
-    (uuid bbb402f9-cbb8-478a-a960-c51a3cc4e39d)
-  )
-  (wire (pts (xy 165.1 91.44) (xy 200.66 91.44))
-    (stroke (width 0) (type default))
-    (uuid cf46a660-f184-4255-8a08-5e00bc4713d6)
-  )
-  (wire (pts (xy 165.1 93.98) (xy 200.66 93.98))
-    (stroke (width 0) (type default))
-    (uuid e44de799-bbf4-47e2-9982-aa4b70c3f02d)
-  )
-
-  (sheet (at 200.66 88.9) (size 25.4 27.94) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 5b2a06a5-fb5f-4aba-bfde-32c85173e89f)
-    (property "Sheetname" "esp32" (at 200.66 88.1884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "esp32.kicad_sch" (at 200.66 117.4246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "CF1" input (at 200.66 106.68 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 7be571b2-bb3a-4356-9ccb-28680f14c332)
-    )
-    (pin "CF2" input (at 200.66 109.22 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid c5105930-a9df-4e82-8bb4-136f314e89a8)
-    )
-    (pin "MOSI" output (at 200.66 91.44 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 15a140bf-26ea-4a7e-ac73-a85216dc6cc1)
-    )
-    (pin "CLK" output (at 200.66 93.98 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid dda8fee2-427f-450b-bb6d-93181b383dce)
-    )
-    (pin "MISO" input (at 200.66 96.52 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 252e20b7-9da0-4607-b072-6985f8ec2d24)
-    )
-    (pin "ResetAdc" output (at 200.66 114.3 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 9230d437-8863-48b0-b093-aef92ffb9313)
-    )
-    (pin "IRQ" input (at 200.66 101.6 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid f091a3d9-b8cd-43e8-ae1f-b23cf7e0dfdb)
-    )
-    (pin "WarnIn" input (at 200.66 111.76 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 30b70849-9838-4c9f-b3e4-5426c239b2f4)
-    )
-    (pin "ZX" input (at 200.66 104.14 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 2d793382-5ed1-4c7d-9658-a1951183f319)
-    )
-    (instances
-      (project "pv_router"
-        (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 114.3 88.9) (size 12.7 15.24) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 760387e1-ffe6-428e-8651-2617e5a76fa2)
-    (property "Sheetname" "Power" (at 114.3 88.1884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "power.kicad_sch" (at 114.3 104.7246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "pv_router"
-        (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 147.32 88.9) (size 17.78 27.94) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid c04c621c-1838-44d9-9dae-69912433c007)
-    (property "Sheetname" "adc" (at 147.32 88.1884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "adc.kicad_sch" (at 147.32 117.4246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "RESET" input (at 165.1 114.3 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 486e4d41-9a8a-4768-be28-760879d0dc9d)
-    )
-    (pin "CF1" output (at 165.1 106.68 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 6e9500ce-8129-4180-87c2-1794d1c2f194)
-    )
-    (pin "WarnOut" output (at 165.1 111.76 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 2266fe75-1885-454b-a562-f96debec85ee)
-    )
-    (pin "ZX" output (at 165.1 104.14 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 5cf168c1-8c49-46cc-a604-9ff84e49dd59)
-    )
-    (pin "CF2" output (at 165.1 109.22 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 587cfb4b-046d-412d-bce8-f394efefa7ca)
-    )
-    (pin "IRQ" output (at 165.1 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 1af5eedc-3b0c-41d5-b451-ef7c54787e32)
-    )
-    (pin "SCLK" input (at 165.1 93.98 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 22a8d077-de95-4aa9-a588-2422577e7cd3)
-    )
-    (pin "SDI" input (at 165.1 91.44 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 6ca95de7-8289-4c69-846b-116456f7cc87)
-    )
-    (pin "SDO" output (at 165.1 96.52 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 2e4b589f-18b7-4333-8374-b9a0727a71f2)
-    )
-    (instances
-      (project "pv_router"
-        (path "/08ef31dc-81c2-4bcd-8336-e62c344e451e" (page "3"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "08ef31dc-81c2-4bcd-8336-e62c344e451e")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 165.1 104.14) (xy 200.66 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2de65412-b929-4a51-a50b-e0778eb09ae4")
+	)
+	(wire
+		(pts
+			(xy 165.1 101.6) (xy 200.66 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da741e2-d08a-40c0-949e-73d8fa5d808e")
+	)
+	(wire
+		(pts
+			(xy 165.1 109.22) (xy 200.66 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "665d2d24-fd92-492d-ba5f-77f636b8cc18")
+	)
+	(wire
+		(pts
+			(xy 165.1 114.3) (xy 200.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9dc636c-45c7-4f69-8a72-4363c17f9ad5")
+	)
+	(wire
+		(pts
+			(xy 165.1 96.52) (xy 200.66 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2619bb9-1876-4e56-8851-230f5e281f46")
+	)
+	(wire
+		(pts
+			(xy 165.1 106.68) (xy 200.66 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97e1928-0f60-4492-b47d-189c9c33c97e")
+	)
+	(wire
+		(pts
+			(xy 165.1 111.76) (xy 200.66 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb402f9-cbb8-478a-a960-c51a3cc4e39d")
+	)
+	(wire
+		(pts
+			(xy 165.1 91.44) (xy 200.66 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf46a660-f184-4255-8a08-5e00bc4713d6")
+	)
+	(wire
+		(pts
+			(xy 165.1 93.98) (xy 200.66 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e44de799-bbf4-47e2-9982-aa4b70c3f02d")
+	)
+	(sheet
+		(at 200.66 88.9)
+		(size 25.4 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b2a06a5-fb5f-4aba-bfde-32c85173e89f")
+		(property "Sheetname" "esp32"
+			(at 200.66 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 200.66 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CF1" input
+			(at 200.66 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7be571b2-bb3a-4356-9ccb-28680f14c332")
+		)
+		(pin "CF2" input
+			(at 200.66 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c5105930-a9df-4e82-8bb4-136f314e89a8")
+		)
+		(pin "MOSI" output
+			(at 200.66 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "15a140bf-26ea-4a7e-ac73-a85216dc6cc1")
+		)
+		(pin "CLK" output
+			(at 200.66 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dda8fee2-427f-450b-bb6d-93181b383dce")
+		)
+		(pin "MISO" input
+			(at 200.66 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "252e20b7-9da0-4607-b072-6985f8ec2d24")
+		)
+		(pin "ResetAdc" output
+			(at 200.66 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9230d437-8863-48b0-b093-aef92ffb9313")
+		)
+		(pin "IRQ" input
+			(at 200.66 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f091a3d9-b8cd-43e8-ae1f-b23cf7e0dfdb")
+		)
+		(pin "WarnIn" input
+			(at 200.66 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "30b70849-9838-4c9f-b3e4-5426c239b2f4")
+		)
+		(pin "ZX" input
+			(at 200.66 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2d793382-5ed1-4c7d-9658-a1951183f319")
+		)
+		(instances
+			(project "pv_router"
+				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 88.9)
+		(size 12.7 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "760387e1-ffe6-428e-8651-2617e5a76fa2")
+		(property "Sheetname" "Power"
+			(at 114.3 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 114.3 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pv_router"
+				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 88.9)
+		(size 17.78 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c04c621c-1838-44d9-9dae-69912433c007")
+		(property "Sheetname" "adc"
+			(at 147.32 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 147.32 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RESET" input
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "486e4d41-9a8a-4768-be28-760879d0dc9d")
+		)
+		(pin "CF1" output
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6e9500ce-8129-4180-87c2-1794d1c2f194")
+		)
+		(pin "WarnOut" output
+			(at 165.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2266fe75-1885-454b-a562-f96debec85ee")
+		)
+		(pin "ZX" output
+			(at 165.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5cf168c1-8c49-46cc-a604-9ff84e49dd59")
+		)
+		(pin "CF2" output
+			(at 165.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "587cfb4b-046d-412d-bce8-f394efefa7ca")
+		)
+		(pin "IRQ" output
+			(at 165.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1af5eedc-3b0c-41d5-b451-ef7c54787e32")
+		)
+		(pin "SCLK" input
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "22a8d077-de95-4aa9-a588-2422577e7cd3")
+		)
+		(pin "SDI" input
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6ca95de7-8289-4c69-846b-116456f7cc87")
+		)
+		(pin "SDO" output
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2e4b589f-18b7-4333-8374-b9a0727a71f2")
+		)
+		(instances
+			(project "pv_router"
+				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
