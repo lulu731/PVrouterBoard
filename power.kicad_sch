@@ -5,6 +5,229 @@
 	(uuid "d8ad7dd3-6e2b-471e-b25f-5a9ecbd0a121")
 	(paper "A4")
 	(lib_symbols
+		(symbol "AP63203WU-7:AP63203WU-7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "AP63203WU-7"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "AP63203WU7"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switching Voltage Regulators DCDC Conv HV Buck TSOT26 T&R 3K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-AP63203WU-7"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP63203WU-7?qs=u16ybLDytRZ1JqxbuLkMJw%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AP63203WU-7"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "AP63203WU-7_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "BST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Barrel_Jack_Switch_Pin3Ring"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -519,265 +742,6 @@
 				)
 			)
 		)
-		(symbol "L6981C33DR:L6981C33DR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 34.29 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "L6981C33DR"
-				(at 34.29 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOIC127P600X175-8N"
-				(at 34.29 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/l6981.pdf"
-				(at 34.29 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "38 V, 1.5 A synchronous step-down converter with low quiescent current"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.75"
-				(at 34.29 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "511-L6981C33DR"
-				(at 34.29 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L6981C33DR?qs=tlsG%2FOw5FFinM1AfQ5D7Tw%3D%3D"
-				(at 34.29 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "STMicroelectronics"
-				(at 34.29 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "L6981C33DR"
-				(at 34.29 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "L6981C33DR_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 33.02 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "BOOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "VOUT/FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 -7.62 180)
-					(length 5.08)
-					(name "EN/CLKIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 -5.08 180)
-					(length 5.08)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 -2.54 180)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 0 180)
-					(length 5.08)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_names
@@ -1098,28 +1062,16 @@
 		(uuid "02f415e1-b4a8-4a16-9f49-385d4d59511d")
 	)
 	(junction
-		(at 190.5 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1485129c-806e-4f7b-9308-4fb94083afab")
-	)
-	(junction
-		(at 243.84 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35c524e4-064d-4b29-85e2-babcb8e6beb8")
-	)
-	(junction
-		(at 218.44 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6555b560-3de1-4c17-94e9-13107fe1d8fd")
-	)
-	(junction
 		(at 132.08 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82666b0c-c708-4c07-a73f-f9ca9e3764db")
+	)
+	(junction
+		(at 205.74 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cca931c-7406-44c9-9f71-b496c3c915fb")
 	)
 	(junction
 		(at 154.94 96.52)
@@ -1128,22 +1080,28 @@
 		(uuid "a7776dd9-2ab5-452c-b02a-b7f718a50a67")
 	)
 	(junction
-		(at 132.08 96.52)
+		(at 171.45 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c1797c4b-1fa2-4981-9bc5-84f6af9c262a")
+		(uuid "ddf6649a-a9f6-4e0c-8488-aefc1cab1afa")
 	)
 	(junction
-		(at 210.82 68.58)
+		(at 218.44 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e22fc070-1bf4-4783-a553-fdf625d398a8")
+		(uuid "e04d5999-38ae-4584-bf18-faa48d698b70")
 	)
 	(junction
-		(at 121.92 66.04)
+		(at 171.45 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fd42d9b1-9157-428f-aada-b6bd8e282617")
+		(uuid "eb54a1a0-7609-46d8-9bbf-30c7b4c234bc")
+	)
+	(junction
+		(at 205.74 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2cc10e4-bf06-4ed0-b2c7-a32eeae6e7f3")
 	)
 	(wire
 		(pts
@@ -1157,16 +1115,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 66.04) (xy 121.92 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02f245d6-9852-45fc-b088-c2bee897a5e9")
-	)
-	(wire
-		(pts
 			(xy 132.08 68.58) (xy 132.08 78.74)
 		)
 		(stroke
@@ -1174,6 +1122,16 @@
 			(type default)
 		)
 		(uuid "08333aaf-97da-46f2-b46b-054a1d15e679")
+	)
+	(wire
+		(pts
+			(xy 132.08 66.04) (xy 140.97 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0905be91-8687-4ae0-ad23-19d9d6d17f28")
 	)
 	(wire
 		(pts
@@ -1187,37 +1145,97 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 60.96) (xy 121.92 60.96)
+			(xy 171.45 68.58) (xy 171.45 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13150b5d-483b-4a7e-bc16-c8d5ca82bf9e")
+		(uuid "0b3ee3bb-e9a9-4cba-bad0-1749258d1362")
 	)
 	(wire
 		(pts
-			(xy 121.92 66.04) (xy 134.62 66.04)
+			(xy 171.45 96.52) (xy 205.74 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "163ab49f-a1b1-4a0d-9034-e51b8ab5a420")
+		(uuid "170ca94a-db79-4d30-b6b8-15c59d56f0b4")
 	)
 	(wire
 		(pts
-			(xy 172.72 68.58) (xy 210.82 68.58)
+			(xy 166.37 66.04) (xy 171.45 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b7df277-ec82-4627-8430-65b08e826acb")
+		(uuid "303a03e9-757e-47af-92f5-10bf229f430a")
 	)
 	(wire
 		(pts
-			(xy 134.62 68.58) (xy 132.08 68.58)
+			(xy 218.44 66.04) (xy 243.84 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c896297-f031-46bf-b457-6d944bc8c951")
+	)
+	(wire
+		(pts
+			(xy 205.74 66.04) (xy 218.44 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "424d040f-29ef-45de-9483-a78c0c2f4c52")
+	)
+	(wire
+		(pts
+			(xy 166.37 63.5) (xy 166.37 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426fbc33-c71b-49e0-8df0-ccce2138637d")
+	)
+	(wire
+		(pts
+			(xy 166.37 68.58) (xy 171.45 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ceb7c2-b8c1-488e-ab65-b887ac89e4d9")
+	)
+	(wire
+		(pts
+			(xy 191.77 66.04) (xy 205.74 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ea8c8b-6b48-43d1-b450-a4a1d8d6805d")
+	)
+	(wire
+		(pts
+			(xy 218.44 96.52) (xy 218.44 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b95e704-8094-45a8-b738-77461349b333")
+	)
+	(wire
+		(pts
+			(xy 132.08 68.58) (xy 140.97 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1247,43 +1265,23 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 68.58) (xy 243.84 68.58)
+			(xy 205.74 46.99) (xy 205.74 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "645c1353-2778-40b6-bec6-948843039083")
+		(uuid "6b7a4079-ae81-47e3-a07c-b4655bfb7f79")
 	)
 	(wire
 		(pts
-			(xy 218.44 60.96) (xy 223.52 60.96)
+			(xy 205.74 96.52) (xy 218.44 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72f46dcf-3771-4da7-8b62-b1df037fa5e0")
-	)
-	(wire
-		(pts
-			(xy 132.08 63.5) (xy 134.62 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84329753-3073-45ab-b35f-61dce04c8426")
-	)
-	(wire
-		(pts
-			(xy 132.08 68.58) (xy 132.08 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87fdb145-2b5a-475b-9484-09d56f7ddfd6")
+		(uuid "72bdf602-96e8-46bf-a731-a3fbe329380b")
 	)
 	(wire
 		(pts
@@ -1297,33 +1295,33 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 63.5) (xy 218.44 63.5)
+			(xy 218.44 66.04) (xy 218.44 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9348ed37-a3a3-4f44-94c6-cfd644cbb72f")
+		(uuid "94c9494d-993a-499e-a451-7d216accd71f")
 	)
 	(wire
 		(pts
-			(xy 190.5 66.04) (xy 190.5 78.74)
+			(xy 171.45 66.04) (xy 186.69 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94e609d9-0d36-4a26-87d1-77b2a03287e6")
+		(uuid "9d479054-fae2-4a53-ae61-c04d0976a123")
 	)
 	(wire
 		(pts
-			(xy 228.6 60.96) (xy 243.84 60.96)
+			(xy 140.97 46.99) (xy 205.74 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4d0d2bb-3f05-4a75-9f9f-dd8878c450aa")
+		(uuid "a1df0951-2b33-4ed5-9cc2-5ebba779ec88")
 	)
 	(wire
 		(pts
@@ -1337,73 +1335,33 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 60.96) (xy 243.84 68.58)
+			(xy 140.97 63.5) (xy 140.97 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b52629f6-a379-4722-9032-5942ae91fcfb")
+		(uuid "c099625b-6b89-461c-bfd5-ba36a8958db0")
 	)
 	(wire
 		(pts
-			(xy 190.5 96.52) (xy 210.82 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b738ff14-b92b-41cd-94e5-fa3c1cc6d3a6")
-	)
-	(wire
-		(pts
-			(xy 218.44 63.5) (xy 218.44 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb3bf182-e4e6-4242-b3ec-e23a6d3c6232")
-	)
-	(wire
-		(pts
-			(xy 172.72 66.04) (xy 190.5 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1590b76-fca5-4cb5-8aa9-4348c0a27f65")
-	)
-	(wire
-		(pts
-			(xy 172.72 60.96) (xy 218.44 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c19d4f23-3556-4106-a344-9efb0b213016")
-	)
-	(wire
-		(pts
-			(xy 190.5 86.36) (xy 190.5 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c42bc801-87ac-4cd5-b54a-3e1e22f28518")
-	)
-	(wire
-		(pts
-			(xy 154.94 96.52) (xy 190.5 96.52)
+			(xy 154.94 96.52) (xy 171.45 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c6a20927-3770-4aa3-98dd-b790823e7ad8")
+	)
+	(wire
+		(pts
+			(xy 132.08 68.58) (xy 132.08 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb17698a-cd3c-4d8e-8f00-4142ebe263f7")
 	)
 	(wire
 		(pts
@@ -1417,43 +1375,23 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 63.5) (xy 203.2 63.5)
+			(xy 166.37 58.42) (xy 171.45 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d50ee460-b83a-45e6-bb4e-4ea30d11a167")
+		(uuid "de3f26c2-d8ae-436b-b26e-fbcbeb92e9d1")
 	)
 	(wire
 		(pts
-			(xy 121.92 96.52) (xy 132.08 96.52)
+			(xy 243.84 66.04) (xy 243.84 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d57c019e-5ed9-406e-a855-a4852f1fa315")
-	)
-	(wire
-		(pts
-			(xy 210.82 68.58) (xy 210.82 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e04b796f-8eb0-4938-ad76-ddafdfc87590")
-	)
-	(wire
-		(pts
-			(xy 121.92 60.96) (xy 121.92 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea73dfc9-7fd6-4549-a354-76a091d97d1c")
+		(uuid "e48eb1f3-10f7-41e7-b16c-02cf44610dcc")
 	)
 	(wire
 		(pts
@@ -1467,6 +1405,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 66.04) (xy 205.74 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a0e183-7bf1-476b-a14e-597c9060f226")
+	)
+	(wire
+		(pts
 			(xy 233.68 38.1) (xy 246.38 38.1)
 		)
 		(stroke
@@ -1477,7 +1425,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 86.36) (xy 210.82 96.52)
+			(xy 205.74 85.09) (xy 205.74 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1624,7 +1572,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 210.82 82.55 0)
+		(at 205.74 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1633,7 +1581,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e48acf0-a534-4fc3-9d36-06e1ff01856f")
 		(property "Reference" "Cout1"
-			(at 214.63 81.28 0)
+			(at 209.55 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,7 +1590,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 214.63 83.82 0)
+			(at 209.55 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1651,7 +1599,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 211.7852 86.36 0)
+			(at 206.7052 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1660,7 +1608,7 @@
 			)
 		)
 		(property "Datasheet" "1 ok"
-			(at 210.82 82.55 0)
+			(at 205.74 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1669,7 +1617,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 82.55 0)
+			(at 205.74 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1687,6 +1635,138 @@
 			(project "pv_router"
 				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
 					(reference "Cout1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AP63203WU-7:AP63203WU-7")
+		(at 140.97 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2854c655-5cb4-4788-a662-4c02c284944b")
+		(property "Reference" "IC1"
+			(at 153.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP63203WU-7"
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AP63203WU7"
+			(at 162.56 158.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+			(at 162.56 258.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switching Voltage Regulators DCDC Conv HV Buck TSOT26 T&R 3K"
+			(at 140.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 162.56 458.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-AP63203WU-7"
+			(at 162.56 558.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP63203WU-7?qs=u16ybLDytRZ1JqxbuLkMJw%3D%3D"
+			(at 162.56 658.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 162.56 758.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AP63203WU-7"
+			(at 162.56 858.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40b9bee1-124e-454a-89df-2e4c4a44afb2")
+		)
+		(pin "5"
+			(uuid "651f4c2b-f022-496e-bc8d-b936e2007016")
+		)
+		(pin "6"
+			(uuid "6382786b-e463-4943-8a88-284cc6087969")
+		)
+		(pin "4"
+			(uuid "78d0bb7e-4ea2-4b35-bfb1-30c3f3254cbc")
+		)
+		(pin "3"
+			(uuid "81487e8f-e27e-48c1-b922-59ee4d5e8b6c")
+		)
+		(pin "2"
+			(uuid "b71123e1-ac67-46c7-9bc7-929ee38f00fb")
+		)
+		(instances
+			(project ""
+				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -1753,214 +1833,6 @@
 			(project "pv_router"
 				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "L6981C33DR:L6981C33DR")
-		(at 172.72 60.96 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3dbed933-8353-4eb2-922c-8125f69b1d83")
-		(property "Reference" "IC1"
-			(at 153.67 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L6981C33DR"
-			(at 153.67 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "L6981C33DR:SOIC127P600X175-8N"
-			(at 138.43 155.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/l6981.pdf"
-			(at 138.43 255.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 138.43 455.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "511-L6981C33DR"
-			(at 138.43 555.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L6981C33DR?qs=tlsG%2FOw5FFinM1AfQ5D7Tw%3D%3D"
-			(at 138.43 655.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 138.43 755.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "L6981C33DR"
-			(at 138.43 855.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "59569c0b-013e-4993-8303-6a0876a128cc")
-		)
-		(pin "7"
-			(uuid "90303005-d773-4c95-a999-0a13f6bad1f9")
-		)
-		(pin "1"
-			(uuid "8bca98e7-4f8f-4655-9652-9d109b4b1e81")
-		)
-		(pin "3"
-			(uuid "a8893107-cff6-4d17-866a-642c27ad88e8")
-		)
-		(pin "8"
-			(uuid "ff9414d4-5bf2-490f-bfcc-79e42bafbaa0")
-		)
-		(pin "6"
-			(uuid "93c620cf-0ae9-4e7d-ac11-374b88cdfc52")
-		)
-		(pin "2"
-			(uuid "ac857edd-3b74-447d-bbe1-5122a3f41bb7")
-		)
-		(pin "4"
-			(uuid "e80969bd-7ad2-44ac-b3cc-2c50420824ac")
-		)
-		(instances
-			(project "pv_router"
-				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
-					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 190.5 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ecdef23-5c98-4c69-9003-300dcd62fb38")
-		(property "Reference" "Cvcc1"
-			(at 194.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 194.31 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 191.4652 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "1 dispo"
-			(at 190.5 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6e523689-38f9-491a-90db-c75573f99c38")
-		)
-		(pin "1"
-			(uuid "605e5fa6-fe55-45de-8ad8-84a632bd2261")
-		)
-		(instances
-			(project "pv_router"
-				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
-					(reference "Cvcc1")
 					(unit 1)
 				)
 			)
@@ -2368,7 +2240,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 207.01 63.5 90)
+		(at 171.45 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2377,23 +2249,25 @@
 		(fields_autoplaced yes)
 		(uuid "d9a789e4-dc5e-4e50-9d11-75e29bcbcdef")
 		(property "Reference" "Cboot1"
-			(at 207.01 55.88 90)
+			(at 175.26 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "100nF"
-			(at 207.01 58.42 90)
+			(at 175.26 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 210.82 62.5348 0)
+			(at 170.4848 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +2276,7 @@
 			)
 		)
 		(property "Datasheet" "ok: 1"
-			(at 207.01 63.5 0)
+			(at 171.45 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +2285,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 63.5 0)
+			(at 171.45 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,33 +2309,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
-		(at 226.06 60.96 90)
+		(lib_id "Device:C")
+		(at 218.44 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fedb08ad-ed08-4d26-890a-390452a49bc9")
-		(property "Reference" "L1"
-			(at 226.06 55.88 90)
+		(uuid "e0f01113-2d4f-44c8-b7ac-8cba001483cc")
+		(property "Reference" "Cout2"
+			(at 222.25 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "33uH"
-			(at 226.06 58.42 90)
+		(property "Value" "22uF"
+			(at 222.25 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "MSS1038T-333MLC:MSS1038T333MLC"
-			(at 226.06 60.96 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 219.4052 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,7 +2346,7 @@
 			)
 		)
 		(property "Datasheet" "1 ok"
-			(at 226.06 60.96 0)
+			(at 218.44 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,7 +2355,75 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 60.96 0)
+			(at 218.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d2107c8-eebf-445d-8e6a-0ef13508cfe6")
+		)
+		(pin "1"
+			(uuid "ffe03914-a891-47a6-9863-1b8d3ed136d3")
+		)
+		(instances
+			(project "pv_router"
+				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
+					(reference "Cout2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 189.23 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fedb08ad-ed08-4d26-890a-390452a49bc9")
+		(property "Reference" "L1"
+			(at 189.23 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uH"
+			(at 189.23 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MSS1038T-333MLC:MSS1038T333MLC"
+			(at 189.23 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "1 ok"
+			(at 189.23 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
