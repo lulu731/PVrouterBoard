@@ -2325,6 +2325,12 @@
 		(uuid "0edb2dd7-26a1-47b5-9548-1e3d10a8ea91")
 	)
 	(junction
+		(at 63.5 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "176356d7-2eb5-4e2c-bb31-c4274a379dce")
+	)
+	(junction
 		(at 63.5 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2349,10 +2355,10 @@
 		(uuid "265ff11e-adec-4650-a6f1-afbeaaaecf39")
 	)
 	(junction
-		(at 63.5 68.58)
+		(at 63.5 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "66fba313-7211-406c-8d99-a59b2aaa68ae")
+		(uuid "311664cd-27bd-4d27-948b-314c403b6a49")
 	)
 	(junction
 		(at 99.06 111.76)
@@ -2385,19 +2391,13 @@
 		(uuid "b6022b57-4c82-4383-b601-3f1acebaee7c")
 	)
 	(junction
-		(at 63.5 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfbd31fc-e21b-4043-a9d8-21ef19f1eaca")
-	)
-	(junction
 		(at 43.18 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c380f8ff-d6fa-4a22-b47e-23a8153e9126")
 	)
 	(junction
-		(at 55.88 63.5)
+		(at 55.88 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f43cf892-c92a-4923-8e16-121b0a941400")
@@ -2666,7 +2666,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 63.5) (xy 55.88 68.58)
+			(xy 55.88 60.96) (xy 55.88 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2676,17 +2676,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 63.5) (xy 63.5 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b73fc3e-b31e-4ad3-b1e0-87d45b0ed97e")
-	)
-	(wire
-		(pts
-			(xy 63.5 53.34) (xy 63.5 63.5)
+			(xy 63.5 53.34) (xy 63.5 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2906,6 +2896,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 60.96) (xy 63.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d033dd7a-76f5-49fd-a94f-d18797e7673e")
+	)
+	(wire
+		(pts
 			(xy 53.34 83.82) (xy 53.34 81.28)
 		)
 		(stroke
@@ -2926,7 +2926,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 68.58) (xy 63.5 81.28)
+			(xy 63.5 66.04) (xy 63.5 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2946,7 +2946,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 63.5) (xy 55.88 63.5)
+			(xy 50.8 60.96) (xy 55.88 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3298,7 +3298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "025ca27b-d707-4dd1-afab-b99ac3ead464")
-		(property "Reference" "R7"
+		(property "Reference" "R11"
 			(at 59.69 74.93 90)
 			(effects
 				(font
@@ -3350,7 +3350,7 @@
 		(instances
 			(project "pv_router"
 				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/5b2a06a5-fb5f-4aba-bfde-32c85173e89f"
-					(reference "R7")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3506,7 +3506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f20518e-f2a7-4c4e-a6dd-38a7316ca6d8")
-		(property "Reference" "R6"
+		(property "Reference" "R10"
 			(at 46.99 90.17 90)
 			(effects
 				(font
@@ -3558,7 +3558,7 @@
 		(instances
 			(project "pv_router"
 				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/5b2a06a5-fb5f-4aba-bfde-32c85173e89f"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3775,7 +3775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b42bd09-0170-481f-8e94-cd085a40fa1f")
-		(property "Reference" "R8"
+		(property "Reference" "R13"
 			(at 134.62 64.77 0)
 			(effects
 				(font
@@ -3829,7 +3829,7 @@
 		(instances
 			(project "pv_router"
 				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/5b2a06a5-fb5f-4aba-bfde-32c85173e89f"
-					(reference "R8")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4045,7 +4045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6483ea68-2859-4ff5-bdbb-9e794b3ef308")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 190.5 113.03 0)
 			(effects
 				(font
@@ -4096,7 +4096,7 @@
 		(instances
 			(project "pv_router"
 				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/5b2a06a5-fb5f-4aba-bfde-32c85173e89f"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4247,7 +4247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82e25998-587a-4a46-8e18-2b86ce8ce027")
-		(property "Reference" "R9"
+		(property "Reference" "R12"
 			(at 124.46 95.25 0)
 			(effects
 				(font
@@ -4301,7 +4301,7 @@
 		(instances
 			(project "pv_router"
 				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/5b2a06a5-fb5f-4aba-bfde-32c85173e89f"
-					(reference "R9")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4317,7 +4317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83cf5de4-7aac-408e-84a6-add569933aff")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR031"
 			(at 121.92 120.65 0)
 			(effects
 				(font
@@ -4368,7 +4368,7 @@
 		(instances
 			(project "pv_router"
 				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/5b2a06a5-fb5f-4aba-bfde-32c85173e89f"
-					(reference "#PWR033")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -4376,7 +4376,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 59.69 63.5 90)
+		(at 59.69 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4385,7 +4385,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b67f743-8d7e-4bdb-85e4-80ef5875938b")
 		(property "Reference" "C15"
-			(at 59.69 55.88 90)
+			(at 59.69 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4393,7 +4393,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 59.69 58.42 90)
+			(at 59.69 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4401,7 +4401,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 63.5 62.5348 0)
+			(at 63.5 59.9948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4410,7 +4410,7 @@
 			)
 		)
 		(property "Datasheet" "ok: 2"
-			(at 59.69 63.5 0)
+			(at 59.69 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,7 +4419,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 63.5 0)
+			(at 59.69 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +4511,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 63.5 0)
+		(at 50.8 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4520,7 +4520,7 @@
 		(fields_autoplaced yes)
 		(uuid "b10a5d75-c163-40a9-9bc2-8e652e989d50")
 		(property "Reference" "#PWR028"
-			(at 50.8 69.85 0)
+			(at 50.8 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4529,7 +4529,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 68.58 0)
+			(at 50.8 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +4538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 63.5 0)
+			(at 50.8 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,7 +4547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 63.5 0)
+			(at 50.8 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,7 +4556,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 63.5 0)
+			(at 50.8 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4796,7 +4796,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 59.69 68.58 90)
+		(at 59.69 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4804,7 +4804,7 @@
 		(dnp no)
 		(uuid "dfa4a0a4-e9ae-47bc-82cd-f0c243a498f2")
 		(property "Reference" "C16"
-			(at 55.88 71.12 90)
+			(at 55.88 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,7 +4812,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 58.42 73.66 90)
+			(at 58.42 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4820,7 +4820,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 63.5 67.6148 0)
+			(at 63.5 65.0748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,7 +4829,7 @@
 			)
 		)
 		(property "Datasheet" "ok : 4"
-			(at 59.69 68.58 0)
+			(at 59.69 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +4838,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 68.58 0)
+			(at 59.69 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,7 +4871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e47021ba-315e-4b19-8ff9-a222d5a8d0a9")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 132.08 97.79 0)
 			(effects
 				(font
@@ -4922,7 +4922,7 @@
 		(instances
 			(project "pv_router"
 				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/5b2a06a5-fb5f-4aba-bfde-32c85173e89f"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
