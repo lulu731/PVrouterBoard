@@ -7064,7 +7064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x1206"
 			(at 211.455 119.38 90)
 			(effects
 				(font
