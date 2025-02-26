@@ -1028,6 +1028,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -1265,6 +1390,12 @@
 		(uuid "e04d5999-38ae-4584-bf18-faa48d698b70")
 	)
 	(junction
+		(at 113.03 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e51f0818-1fbc-471a-92a0-7f328d62b620")
+	)
+	(junction
 		(at 171.45 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1275,6 +1406,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2cc10e4-bf06-4ed0-b2c7-a32eeae6e7f3")
+	)
+	(wire
+		(pts
+			(xy 113.03 68.58) (xy 132.08 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0003c640-1633-447d-9ba5-76d098bfc0ba")
 	)
 	(wire
 		(pts
@@ -1348,6 +1489,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 53.34) (xy 113.03 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c88c24b-e50a-4365-9395-972171821c75")
+	)
+	(wire
+		(pts
 			(xy 218.44 66.04) (xy 243.84 66.04)
 		)
 		(stroke
@@ -1355,6 +1506,26 @@
 			(type default)
 		)
 		(uuid "3c896297-f031-46bf-b457-6d944bc8c951")
+	)
+	(wire
+		(pts
+			(xy 113.03 64.77) (xy 113.03 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc8b857-3c9e-4bac-99b1-ea7701f5a0f5")
+	)
+	(wire
+		(pts
+			(xy 186.69 35.56) (xy 199.39 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f260d61-90db-4b83-8ff5-bfe110bbf797")
 	)
 	(wire
 		(pts
@@ -1408,7 +1579,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 68.58) (xy 105.41 68.58)
+			(xy 78.74 68.58) (xy 90.17 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1518,7 +1689,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 68.58) (xy 132.08 68.58)
+			(xy 95.25 68.58) (xy 113.03 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1555,6 +1726,16 @@
 			(type default)
 		)
 		(uuid "cccc98ad-2828-434e-8bad-62f4c0cd1ffa")
+	)
+	(wire
+		(pts
+			(xy 113.03 59.69) (xy 113.03 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7424e10-c357-49af-b387-b182d851fd23")
 	)
 	(wire
 		(pts
@@ -1956,6 +2137,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 113.03 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2df355b6-7ec8-48c1-96bf-7054637b5d97")
+		(property "Reference" "D3"
+			(at 115.57 61.2139 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Schottky_Small"
+			(at 115.57 63.7539 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7fd7d14-8a70-444f-9f57-29115bbcff79")
+		)
+		(pin "1"
+			(uuid "05f5f966-9bbe-4014-aa9c-c4401c280b68")
+		)
+		(instances
+			(project "pv_router"
+				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 154.94 96.52 0)
 		(unit 1)
@@ -2016,6 +2267,72 @@
 			(project "pv_router"
 				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 186.69 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61dccfa9-f082-4c76-b517-9463f6135d62")
+		(property "Reference" "#FLG03"
+			(at 186.69 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 186.69 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f24b3d66-3978-40e7-9597-f58faa915c91")
+		)
+		(instances
+			(project "pv_router"
+				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -2088,8 +2405,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 199.39 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fa30fad-40be-466c-8f71-5db7d7bb523a")
+		(property "Reference" "#PWR034"
+			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 199.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 199.39 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d00e4e1-b56f-4c43-a72d-2ab00870c9f6")
+		)
+		(instances
+			(project ""
+				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 107.95 68.58 180)
+		(at 92.71 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2098,7 +2481,7 @@
 		(fields_autoplaced yes)
 		(uuid "8784702e-3efd-4d08-b7c4-8a94d6d28e25")
 		(property "Reference" "D2"
-			(at 108.204 62.23 0)
+			(at 92.964 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2106,7 +2489,7 @@
 			)
 		)
 		(property "Value" "D_Schottky_Small"
-			(at 108.204 64.77 0)
+			(at 92.964 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,7 +2497,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 68.58 90)
+			(at 92.71 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +2506,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 68.58 90)
+			(at 92.71 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,7 +2515,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 107.95 68.58 0)
+			(at 92.71 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,6 +2735,72 @@
 			(project "pv_router"
 				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 72.39 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1d74370-5c70-4e61-8188-11affb2e2e98")
+		(property "Reference" "#PWR035"
+			(at 72.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 72.39 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 72.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "300c368d-ee8d-4520-a5c9-d585f536c2d9")
+		)
+		(instances
+			(project "pv_router"
+				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/760387e1-ffe6-428e-8651-2617e5a76fa2"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
