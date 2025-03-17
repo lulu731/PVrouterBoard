@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 165.1 99.06) (xy 200.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f938da-942c-4100-90d5-913ab7705624")
+	)
+	(wire
+		(pts
 			(xy 165.1 104.14) (xy 200.66 104.14)
 		)
 		(stroke
@@ -219,6 +229,16 @@
 				(justify left)
 			)
 		)
+		(pin "CS" output
+			(at 200.66 99.06 180)
+			(uuid "7915c226-5964-44de-859f-6c59e78d7c8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "pv_router"
 				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e"
@@ -386,6 +406,16 @@
 		(pin "SDO" output
 			(at 165.1 96.52 0)
 			(uuid "2e4b589f-18b7-4333-8374-b9a0727a71f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS" input
+			(at 165.1 99.06 0)
+			(uuid "535aa1fe-777c-4f76-9bdb-774126784b42")
 			(effects
 				(font
 					(size 1.27 1.27)

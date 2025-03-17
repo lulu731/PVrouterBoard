@@ -3205,16 +3205,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 88.9) (xy 193.04 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce61ab88-c865-45e9-b9cd-97e30b2d444e")
-	)
-	(wire
-		(pts
 			(xy 233.68 109.22) (xy 254 109.22)
 		)
 		(stroke
@@ -3557,6 +3547,17 @@
 			(justify left)
 		)
 		(uuid "95292da9-adf1-4e01-b7d6-047c1ad1e6d3")
+	)
+	(hierarchical_label "CS"
+		(shape input)
+		(at 193.04 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9930f37d-4b8a-4de4-ac42-aee689b7bb0a")
 	)
 	(hierarchical_label "CF2"
 		(shape output)
@@ -5374,74 +5375,6 @@
 			(project "pv_router"
 				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/c04c621c-1838-44d9-9dae-69912433c007"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 198.12 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66bf5221-ead2-4a76-b81a-f70ad3094148")
-		(property "Reference" "#PWR020"
-			(at 204.47 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 201.93 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72835bca-d601-472b-bba8-997629b9d268")
-		)
-		(instances
-			(project "pv_router"
-				(path "/08ef31dc-81c2-4bcd-8336-e62c344e451e/c04c621c-1838-44d9-9dae-69912433c007"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
