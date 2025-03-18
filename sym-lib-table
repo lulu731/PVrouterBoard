@@ -6,4 +6,5 @@
   (lib (name "ESP32-C3-WROOM-02-N4")(type "KiCad")(uri "${KIPRJMOD}/ignore/doc/esp32/ESP32-C3-WROOM-02-N4/KiCad/ESP32-C3-WROOM-02-N4.kicad_sym")(options "")(descr ""))
   (lib (name "AP63203WU-7")(type "KiCad")(uri "${KIPRJMOD}/ignore/doc/esp32/AP63203WU-7/KiCad/AP63203WU-7.kicad_sym")(options "")(descr ""))
   (lib (name "ESP32-S3-WROOM-1-N8R8")(type "KiCad")(uri "${KIPRJMOD}/ignore/doc/ESP32-S3-WROOM-1-N8R8/KiCad/ESP32-S3-WROOM-1-N8R8.kicad_sym")(options "")(descr ""))
+  (lib (name "UET14A05L03-BK")(type "KiCad")(uri "${KIPRJMOD}/ignore/doc/UET14A05L03-BK/KiCad/UET14A05L03-BK.kicad_sym")(options "")(descr ""))
 )
