@@ -798,6 +798,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pin" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode light-emitting-diode"
 				(at 0 0 0)
 				(effects
@@ -1333,8 +1342,12 @@
 		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1434,8 +1447,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+3V3"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1580,8 +1592,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1657,8 +1673,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1745,7 +1760,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2355,7 +2370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ok 2 !!FP"
+		(property "Datasheet" "~"
 			(at 72.39 72.136 0)
 			(effects
 				(font
@@ -2364,7 +2379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DC Barrel Jack with an internal switch"
 			(at 71.12 71.12 0)
 			(effects
 				(font
@@ -2436,7 +2451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 86.36 73.66 0)
 			(effects
 				(font
@@ -2494,7 +2509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1 ok"
+		(property "Datasheet" "~"
 			(at 205.74 81.28 0)
 			(effects
 				(font
@@ -2503,7 +2518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 205.74 81.28 0)
 			(effects
 				(font
@@ -2553,7 +2568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KiCad:AP63203WU7"
+		(property "Footprint" "AP63203WU7"
 			(at 162.56 158.42 0)
 			(effects
 				(font
@@ -2774,7 +2789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 138.43 30.48 0)
 			(effects
 				(font
@@ -2840,7 +2855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 154.94 96.52 0)
 			(effects
 				(font
@@ -2906,7 +2921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 184.15 29.21 0)
 			(effects
 				(font
@@ -2964,7 +2979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ok"
+		(property "Datasheet" "~"
 			(at 237.49 78.74 0)
 			(effects
 				(font
@@ -2973,7 +2988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 237.49 78.74 0)
 			(effects
 				(font
@@ -3043,7 +3058,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, small symbol"
+			(at 237.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 237.49 90.17 0)
 			(effects
 				(font
@@ -3112,7 +3136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 224.79 29.21 0)
 			(effects
 				(font
@@ -3314,7 +3338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 69.85 30.48 0)
 			(effects
 				(font
@@ -3372,7 +3396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1 ok"
+		(property "Datasheet" "~"
 			(at 132.08 82.55 0)
 			(effects
 				(font
@@ -3381,7 +3405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 132.08 82.55 0)
 			(effects
 				(font
@@ -3450,7 +3474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 243.84 60.96 0)
 			(effects
 				(font
@@ -3583,7 +3607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 237.49 29.21 0)
 			(effects
 				(font
@@ -3715,7 +3739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 59.69 30.48 0)
 			(effects
 				(font
@@ -3773,7 +3797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ok: 1"
+		(property "Datasheet" "~"
 			(at 171.45 62.23 0)
 			(effects
 				(font
@@ -3782,7 +3806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 171.45 62.23 0)
 			(effects
 				(font
@@ -3843,7 +3867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1 ok"
+		(property "Datasheet" "~"
 			(at 218.44 81.28 0)
 			(effects
 				(font
@@ -3852,7 +3876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 218.44 81.28 0)
 			(effects
 				(font
@@ -3977,7 +4001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1 ok"
+		(property "Datasheet" "~"
 			(at 189.23 66.04 0)
 			(effects
 				(font
@@ -3986,7 +4010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor, small symbol"
 			(at 189.23 66.04 0)
 			(effects
 				(font
