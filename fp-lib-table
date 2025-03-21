@@ -1,9 +1,7 @@
 (fp_lib_table
   (version 7)
-  (lib (name "ESP32-C3-WROOM-02-N4")(type "Legacy")(uri "${KIPRJMOD}/ignore/doc/esp32/ESP32-C3-WROOM-02-N4/KiCad/ESP32-C3-WROOM-02-N4.mod")(options "")(descr ""))
-  (lib (name "L6981C33DR")(type "Legacy")(uri "${KIPRJMOD}/ignore/doc/esp32/L6981C33DR/KiCad/L6981C33DR.mod")(options "")(descr ""))
-  (lib (name "ATM90E26-YU-B")(type "Legacy")(uri "${KIPRJMOD}/ignore/doc/esp32/ATM90E26-YU-B/KiCad/ATM90E26-YU-B.mod")(options "")(descr ""))
-  (lib (name "MSS1038T-333MLC")(type "Legacy")(uri "${KIPRJMOD}/ignore/doc/esp32/MSS1038T-333MLC/KiCad/MSS1038T-333MLC.mod")(options "")(descr ""))
+  (lib (name "ATM90E26-YU-B")(type "Legacy")(uri "${KIPRJ_SYMBOL_DIR}/ATM90E26-YU-B/KiCad/ATM90E26-YU-B.mod")(options "")(descr ""))
   (lib (name "BarrelJack")(type "KiCad")(uri "${KIPRJMOD}/BarrelJack.pretty")(options "")(descr ""))
-  (lib (name "KiCad")(type "KiCad")(uri "${KIPRJMOD}/ignore/doc/esp32/AP63203WU-7/KiCad")(options "")(descr ""))
+  (lib (name "Buck_conv")(type "KiCad")(uri "${KIPRJ_SYMBOL_DIR}/AP63203WU-7/KiCad")(options "")(descr ""))
+  (lib (name "UET14A05L03-BK")(type "KiCad")(uri "${KIPRJMOD}/ignore/lib/UET14A05L03-BK/KiCad")(options "")(descr ""))
 )
