@@ -2568,7 +2568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AP63203WU7"
+		(property "Footprint" "Buck_conv:AP63203WU7"
 			(at 162.56 158.42 0)
 			(effects
 				(font
@@ -3992,7 +3992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MSS1038T-333MLC:MSS1038T333MLC"
+		(property "Footprint" "Inductor_SMD:L_Bourns-SRN6028"
 			(at 189.23 66.04 0)
 			(effects
 				(font

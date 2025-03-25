@@ -3683,7 +3683,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 42.418 107.95 90)
 			(effects
 				(font
@@ -4986,7 +4986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P778X199-28N"
+		(property "Footprint" "ATM90E26-YU-B:SOP65P778X199-28N"
 			(at 189.23 173.66 0)
 			(effects
 				(font
@@ -5254,7 +5254,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 42.418 83.82 90)
 			(effects
 				(font
@@ -5664,7 +5664,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 42.418 72.39 90)
 			(effects
 				(font
@@ -6421,7 +6421,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 42.418 120.65 90)
 			(effects
 				(font
@@ -6971,7 +6971,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 240.03 151.638 90)
 			(effects
 				(font
@@ -7109,7 +7109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_HC18-U_Vertical"
+		(property "Footprint" "ABLS:HC_49US-_AT49__1"
 			(at 233.68 87.63 0)
 			(effects
 				(font
