@@ -1,7 +1,7 @@
 (fp_lib_table
   (version 7)
   (lib (name "ATM90E26-YU-B")(type "Legacy")(uri "${KIPRJ_SYMBOL_DIR}/ATM90E26-YU-B/KiCad/ATM90E26-YU-B.mod")(options "")(descr ""))
-  (lib (name "BarrelJack")(type "KiCad")(uri "${KIPRJMOD}/BarrelJack.pretty")(options "")(descr ""))
+  (lib (name "BarrelJack")(type "KiCad")(uri "${KIPRJ_SYMBOL_DIR}/BarrelJack.pretty")(options "")(descr ""))
   (lib (name "Buck_conv")(type "KiCad")(uri "${KIPRJ_SYMBOL_DIR}/AP63203WU-7/KiCad")(options "")(descr ""))
   (lib (name "UET14A05L03-BK")(type "KiCad")(uri "${KIPRJMOD}/ignore/lib/UET14A05L03-BK/KiCad")(options "")(descr ""))
   (lib (name "ABLS")(type "KiCad")(uri "${KIPRJMOD}/ignore/lib/ABLS-8.192MHZ-B2-T/KiCad")(options "")(descr ""))
