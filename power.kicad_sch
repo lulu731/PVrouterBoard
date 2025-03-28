@@ -2702,7 +2702,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_T-1_P10.16mm_Horizontal"
+		(property "Footprint" "schotky_DB2441600L:SODFL4724X90N"
 			(at 113.03 62.23 90)
 			(effects
 				(font
@@ -3250,7 +3250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_T-1_P10.16mm_Horizontal"
+		(property "Footprint" "schotky_DB2441600L:SODFL4724X90N"
 			(at 102.87 68.58 90)
 			(effects
 				(font
@@ -3984,7 +3984,7 @@
 				)
 			)
 		)
-		(property "Value" "3.9uH"
+		(property "Value" "6.8uH"
 			(at 189.23 63.5 90)
 			(effects
 				(font
@@ -3992,7 +3992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Bourns-SRN6028"
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1260"
 			(at 189.23 66.04 0)
 			(effects
 				(font

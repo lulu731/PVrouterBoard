@@ -5590,7 +5590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Molex_67643_Horizontal"
+		(property "Footprint" "USB_A_61400416021:USB-2.0-TYPE-A"
 			(at 240.03 85.09 0)
 			(effects
 				(font
