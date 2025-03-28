@@ -5,4 +5,6 @@
   (lib (name "Buck_conv")(type "KiCad")(uri "${KIPRJ_SYMBOL_DIR}/AP63203WU-7/KiCad")(options "")(descr ""))
   (lib (name "UET14A05L03-BK")(type "KiCad")(uri "${KIPRJMOD}/ignore/lib/UET14A05L03-BK/KiCad")(options "")(descr ""))
   (lib (name "ABLS")(type "KiCad")(uri "${KIPRJMOD}/ignore/lib/ABLS-8.192MHZ-B2-T/KiCad")(options "")(descr ""))
+  (lib (name "USB_A_61400416021")(type "KiCad")(uri "${KIPRJMOD}/ignore/lib/61400416021/KiCad")(options "")(descr ""))
+  (lib (name "schotky_DB2441600L")(type "KiCad")(uri "${KIPRJMOD}/ignore/lib/DB2441600L/KiCad")(options "")(descr ""))
 )
