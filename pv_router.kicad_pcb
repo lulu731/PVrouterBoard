@@ -183,7 +183,7 @@
 	(net 18 "unconnected-(U1-IO45-Pad26)")
 	(net 19 "unconnected-(U1-IO1-Pad39)")
 	(net 20 "unconnected-(U1-IO15-Pad8)")
-	(net 21 "unconnected-(U1-IO18-Pad11)")
+	(net 21 "unconnected-(U1-IO38-Pad31)")
 	(net 22 "unconnected-(U1-IO36-Pad29)")
 	(net 23 "unconnected-(U1-IO16-Pad9)")
 	(net 24 "unconnected-(U1-IO2-Pad38)")
@@ -5480,7 +5480,7 @@
 	(footprint "UET14A05L03-BK:UET14A05L03BK"
 		(layer "F.Cu")
 		(uuid "52bda053-d963-43a8-9d2e-aeee1647cee3")
-		(at 175.73 109.55 180)
+		(at 177.56 107.02 180)
 		(descr "UET14A05L03-BK-1")
 		(tags "Diode")
 		(property "Reference" "D5"
@@ -12654,9 +12654,9 @@
 			(at -8.75 7.44 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 21 "unconnected-(U1-IO18-Pad11)")
+			(net 16 "Net-(Q1-G)")
 			(pinfunction "IO18")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "2ee876fc-a6ef-4414-9cd3-4dab5f302ef6")
 		)
 		(pad "12" smd rect
@@ -12834,9 +12834,9 @@
 			(at 8.75 6.17 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 16 "Net-(Q1-G)")
+			(net 21 "unconnected-(U1-IO38-Pad31)")
 			(pinfunction "IO38")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "caefffec-7798-4b37-99f3-b28dc5c6f14b")
 		)
 		(pad "32" smd rect
