@@ -29789,7 +29789,7 @@
 		(net 1)
 		(net_name "GND")
 		(layer "In1.Cu")
-		(uuid "700b0129-912d-442f-813e-266f32fa6a4f")
+		(uuid "d8cdd431-afe9-4c3b-adf0-56ee0dd9f464")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0.5)
@@ -29802,7 +29802,7 @@
 		)
 		(polygon
 			(pts
-				(xy 125 79.5) (xy 195 80) (xy 195 150) (xy 125 150)
+				(xy 125 80) (xy 195 80) (xy 195 150) (xy 125 150)
 			)
 		)
 		(filled_polygon
