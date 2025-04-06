@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(general
-		(thickness 1.592)
+		(thickness 1.579)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -45,7 +45,7 @@
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
 				(color "White")
-				(material "Direct Printing")
+				(material "Peters SD2692")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
@@ -54,9 +54,9 @@
 				(type "Top Solder Mask")
 				(color "Green")
 				(thickness 0.025)
-				(material "Liquid Ink")
+				(material "Elpemer AS 2467 SM-DG")
 				(epsilon_r 3.7)
-				(loss_tangent 0.029)
+				(loss_tangent 0)
 			)
 			(layer "F.Cu"
 				(type "copper")
@@ -65,10 +65,10 @@
 			(layer "dielectric 1"
 				(type "prepreg")
 				(color "FR4 natural")
-				(thickness 0.136)
-				(material "FR4")
+				(thickness 0.138)
+				(material "Pansonic R-1551(W)")
 				(epsilon_r 4.3)
-				(loss_tangent 0.014)
+				(loss_tangent 0)
 			)
 			(layer "In1.Cu"
 				(type "copper")
@@ -76,11 +76,11 @@
 			)
 			(layer "dielectric 2"
 				(type "core")
-				(color "Polyimide")
-				(thickness 1.13)
-				(material "FR4")
+				(color "FR4 natural")
+				(thickness 1.113)
+				(material "Panasonic R-1566(W)")
 				(epsilon_r 4.6)
-				(loss_tangent 0.035)
+				(loss_tangent 0)
 			)
 			(layer "In2.Cu"
 				(type "copper")
@@ -89,10 +89,10 @@
 			(layer "dielectric 3"
 				(type "prepreg")
 				(color "FR4 natural")
-				(thickness 0.136)
-				(material "FR4")
+				(thickness 0.138)
+				(material "Pansonic R-1551(W)")
 				(epsilon_r 4.3)
-				(loss_tangent 0.014)
+				(loss_tangent 0)
 			)
 			(layer "B.Cu"
 				(type "copper")
@@ -100,11 +100,11 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(color "Blue")
+				(color "Green")
 				(thickness 0.025)
-				(material "Liquid Ink")
+				(material "Elpemer AS 2467 SM-DG")
 				(epsilon_r 3.7)
-				(loss_tangent 0.029)
+				(loss_tangent 0)
 			)
 			(layer "B.Paste"
 				(type "Bottom Solder Paste")
@@ -112,7 +112,7 @@
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
 				(color "White")
-				(material "Direct Printing")
+				(material "Peters SD2692")
 			)
 			(copper_finish "ENIG")
 			(dielectric_constraints no)
