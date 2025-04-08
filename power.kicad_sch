@@ -2474,6 +2474,37 @@
 		)
 		(uuid "fe155dc5-9e69-4fdb-b4d7-b06881fa14a4")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 123.19 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "725811c2-ab61-438a-b10a-ece139191c33")
+		(property "Netclass" "Power"
+			(at 123.8885 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -134.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack_Switch_Pin3Ring")
 		(at 71.12 71.12 0)
